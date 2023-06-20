@@ -6,9 +6,7 @@ function getFormvalue() {
   var firstName = form.elements.fname.value;
   var lastName = form.elements.lname.value;
 
-  // Print the first and last name using alert()
-  alert("First name: " + firstName + "\nLast name: " + lastName);
-
-  // Prevent the form from submitting
-  return false;
+  // Print the first name and last name with a space in between
+  alert (firstName + " " + lastName);
+  
 }
